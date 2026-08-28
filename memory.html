@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Interaktives Memory-Spiel mit sechs symbolischen Bildern</title>
+
+<meta name="description" content="Interaktives Memory-Spiel mit sechs symbolischen Bildern: Kuchen, Licht der Erkenntnis, Messer, Steinwurf-Welle, Testosteron und Würfel. Decke passende Paare auf und trainiere deine Merkfähigkeit.">
+
+<meta name="author" content="Eckehard Kuhlmei">
+<link rel="stylesheet" href="style.css">
+
+<style>
+    main h1,
+    main p {
+        text-align: center;
+    }
+</style>
+
+
+<script src="memory.js" defer></script>
+</head>
+
+<body class="body-background">
+
+<header class="site-header">
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Start</a></li>
+            <li class="nav-item"><a href="rezension.html" class="nav-link">Rezension</a></li>
+            <li class="nav-item"><a href="kausalitätsnachweis.html" class="nav-link">Kausalitätsnachweis</a></li>
+            <li class="nav-item"><a href="studienkonzept.html" class="nav-link">Studienkonzept</a></li>
+            <li class="nav-item"><a href="memory.html" class="nav-link nav-link-active">Memory</a></li>
+            <li class="nav-item"><a href="literatur.html" class="nav-link">Literatur</a></li>
+            <li class="nav-item"><a href="impressum.html" class="nav-link">Impressum</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<h1>Memory-Spiel </h1>
+
+
+<div class="memory-grid">
+
+    <!-- 12 Karten (6 Paare) -->
+    <div class="card" data-image="kuchen.jpg"></div>
+    <div class="card" data-image="kuchen.jpg"></div>
+
+    <div class="card" data-image="licht.png"></div>
+    <div class="card" data-image="licht.png"></div>
+
+    <div class="card" data-image="messer.png"></div>
+    <div class="card" data-image="messer.png"></div>
+
+    <div class="card" data-image="stein.jpg"></div>
+    <div class="card" data-image="stein.jpg"></div>
+
+    <div class="card" data-image="testosteron.jpg"></div>
+    <div class="card" data-image="testosteron.jpg"></div>
+
+    <div class="card" data-image="kuchengruppe.png"></div>
+    <div class="card" data-image="kuchengruppe.png"></div>
+
+</div>
+
+<audio id="win-sound" src="win.mp3"></audio>
+
+</main>
+
+</body>
+</html>
