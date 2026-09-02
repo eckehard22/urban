@@ -195,5 +195,29 @@ p {
     font-weight: 500;
 }
 
+.doi {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 6rem;   /* deutlich mehr Abstand nach unten */
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 
+.doi a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.orcid {
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.orcid a {
+    color: #0066cc;
+    text-decoration: underline;
+}
 
