@@ -198,7 +198,7 @@ p {
 .doi {
     text-align: center;
     margin-top: 3rem;
-    margin-bottom: 6rem;   /* deutlich mehr Abstand nach unten */
+    margin-bottom: 4rem;   /* deutlich mehr Abstand nach unten */
     font-size: 1.1rem;
     font-weight: 500;
 }
