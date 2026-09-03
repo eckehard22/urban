@@ -221,3 +221,9 @@ p {
     text-decoration: underline;
 }
 
+.pdf-link {
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-decoration: underline;
+    color: var(--text-dark);
+}
