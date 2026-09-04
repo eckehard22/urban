@@ -227,3 +227,18 @@ p {
     text-decoration: underline;
     color: var(--text-dark);
 }
+
+.video {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.video a {
+    color: #005a8c; /* dein Urban-Blau */
+    text-decoration: none;
+}
+
+.video a:hover {
+    text-decoration: underline;
+}
+
