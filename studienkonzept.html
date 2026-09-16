@@ -158,7 +158,7 @@
 
 <p> Dieses Studienkonzept beschreibt, wie eine empirische Bestätigung von Urbanioks Hypothese möglich wäre. Dazu werden Stichprobe, Variablen, statistische Hypothesen und die Auswertungsmethode dargestellt. Besonderes Augenmerk liegt auf der hierarchischen multiplen Regressionsanalyse, die anhand eines konkreten realen Beispiels und einer anschaulichen Kuchenanalogie erklärt wird. Die Darstellung richtet sich sowohl an Leser, die die Prüfbarkeit von Urbanioks Hypothese nachvollziehen möchten, als auch an Personen, die sich primär für die statistische Methode der Regressionsanalyse interessieren. </p>
 
-<h2> Vorbemerkungen: </h2>
+<h2> 1. Vorbemerkungen </h2>
  
 <p>Das Ziel der folgenden Betrachtungen besteht darin, das prinzipielle Vorgehen zur Prüfung der Vermutungen von Urbaniok (2025, S. 58), möglichst einfach und anschaulich zu präsentieren. Dementsprechend beschränken wir uns hier auf die Untersuchung von erwachsenen Personen und auf die Darstellung der dabei benötigten Variablen. Wir haben möglichst einfache Umsetzungen (Operationalisierungen) gewählt, die auch vollkommen anders (z.B. Fragebögen anstelle von Schätzskalen) vorgenommen werden könnten.</p>
 
@@ -166,37 +166,37 @@
 
 <p>In der multiplen Regressionsanalyse muss das Kriterium mindestens intervallskaliert sein und die Prädiktoren müssen alle mindestens intervallskaliert oder dichotom (zweistufig) sein. Eine anschauliche und ausführliche Erklärung der Skalenniveaus findet sich bei Kuhlmei (2018, S. 15-23).</p>
 
-<h2> Stichprobe und Variablen </h2>
+<h2> 2. Stichprobe und Variablen </h2>
 
 <p>Für eine Zufallsstichprobe von mindestens zwanzigtausend erwachsenen Personen (ab 18 Jahren) aus der Population der Schweiz, werden die Messwerte auf den folgenden Variablen – durch anonyme Befragungen (Selbstberichte) – erfasst.</p>
 
-<p><strong>Kriterium:</strong><br>
+<h3>2.1 Kriterium</h3>
 Als Kriterium wird ein nach dem Schweregrad aller zu Lebzeiten begangenen Straftaten gewichteter intervallskalierter Durchschnittswert für jede Person ermittelt:<br>
 Schweregrad der Kriminalität = KRI</p>
 
-<p><strong>Zentraler Prädiktor von Urbaniok:</strong><br>
+<h3>2.2 Zentraler Prädiktor von Urbaniok</h3>
 Für jede der folgenden sechs Variablen (siehe Urbaniok, 2025, S. 58) – gewaltfördernde Selbstbilder, gewaltfördernde Rollenbilder, Ablehnung des Rechtsstaats und der westlichen Werte, Extremismus, Gewaltaffinität und parallelkulturelle Orientierung – wird mit der gleichen geeigneten intervallskalierten Schätzskala die Ausprägung erhoben. Der arithmetische Mittelwert von diesen sechs Variablen liefert den:<br>
 Schweregrad der gefährdenden kulturspezifischen Prägung = KP</p>
 
-<p><strong>Prädiktoren des bekannten Erklärungsmodell:</strong><br>
+<h3>2.3 Prädiktoren des bekannten Erklärungsmodell</h3>
 Alter = AL (gemessen in Jahren)<br>
 Armut = AR (intervallskalierte Schätzskala)<br>
 Bildung = BI (intervallskalierte Schätzskala)<br>
 Geschlecht = GE (zweistufig)<br>
 Sozialer Status = SS (zweistufig)</p>
 
-<h2> Ziel der Regressionsanalyse </h2>
+<h2> 3. Ziel der Regressionsanalyse </h2>
 
 <p>Das Ziel der Regressionsanalyse besteht darin mit Hilfe der Prädiktoren die Kriteriumswerte möglichst gut vorherzusagen. Konkret bedeutet das folgendes: Für Personen mit hohem Schweregrad der Kriminalität sollten möglichst hohe Kriminalitätswerte vorhergesagt werden. Für Personen mit mittleren Werten möglichst mittlere Werte und für Personen mit niedrigen Werten möglichst niedrige Werte. Wir können das auch so formulieren: Die Unterschiede (hohe, mittlere, niedrige Werte) bzw. die Varianzen in den Messwerten des Kriteriums sollen möglichst gut aufgeklärt werden.</p>
 
-<h2> Statistische Hypothesen </h2>
+<h2> 4. Statistische Hypothesen </h2>
 
 <p>Erklärung der Notation: R<sub>Pop</sub><sup>2</sup>(KRI . KP) steht hier für die aufgeklärte Varianz R<sup>2</sup> in der Population (Pop) der erwachsenen Schweizerinnen und Schweizer, für das Kriterium KRI durch den Prädiktor KP.<br>
 R<sup>2</sup>(KRI . KP) steht analog für die aufgeklärte Varianz R<sup>2</sup> in der untersuchten Stichprobe.</p>
 
 <p>Aus den Vermutungen von Urbaniok (2025, S. 58) können zwei statistische Hypothesen abgeleitet werden.</p>
 
-<h3> Statistische Hypothese 1 </h3>
+<h3> 4.1 Statistische Hypothese 1 </h3>
 
 <p>Der Schweregrad der gefährdenden kulturspezifischen Prägung = KP sollte über die anderen Prädiktoren (AL, AR, BI, GE, SS) hinaus in der Population (Pop) einen eigenen Varianzanteil aufklären:</p>
 
@@ -207,25 +207,25 @@ R<sup>2</sup>(KRI . KP) steht analog für die aufgeklärte Varianz R<sup>2</sup>
 <p>Im zweiten Schritt kommt dann noch der zu prüfende Prädiktor KP hinzu und wir erhalten die Varianzaufklärung R<sup>2</sup>(KRI . KP, AL, AR, BI, GE, SS) in der Stichprobe. Wird hiervon R<sup>2</sup>(KRI . AL, AR, BI, GE, SS) subtrahiert, dann wird damit der Einfluss der Prädiktoren des bekannten Erklärungsmodell eliminiert.<br>
 Hinweis: Die in der Stichprobe aufgeklärten Varianzen dienen als Schätzwerte für die Varianzaufklärungen in der Population.</p>
 
-<h3> Statistische Hypothese 2 </h3>
+<h3> 4.2 Statistische Hypothese 2 </h3>
 
 <p>Die Prädiktoren (AL, AR, BI, GE, SS) dürfen über den Prädiktor KP hinaus keine signifikante Varianzaufklärung in der Population ergeben, weil Urbaniok (2025, S. 58) behauptet, dass KP hauptursächlich für kriminelles Verhalten ist:</p>
 
 <p><code>R<sub>Pop</sub><sup>2</sup>(KRI . KP, AL, AR, BI, GE, SS) - R<sub>Pop</sub><sup>2</sup>(KRI . KP) = 0</code></p>
 
-<h3> Bewertung </h3>
+<h3> 4.3 Bewertung </h3>
 
 <p>Erst wenn die Prüfungen der statistischen Hypothesen mit Hilfe von Signifikanztests (das wären hier F-Tests) im Sinne dieser Vermutungen ausfallen, wird in der seriösen Wissenschaft die aufgestellte Theorie als empirisch gestützt, bewährt oder belegt bewertet.</p>
 
 <p>Zum aktuellen Zeitpunkt bleibt die Annahme einer gefährlichen kulturspezifischen Prägung in bestimmten Ländern, als zusätzliche oder sogar einzige Ursache (neben bzw. gegenüber Alter, Geschlecht, sozialer Status, Bildung, Armut usw.) für erhöhte Kriminalität, eine – vielleicht gut begründete – noch nicht belegte theoretische Vermutung.</p>
 
-<h2> Mögliche Ergänzungen </h2>
+<h2> 5. Mögliche Ergänzungen </h2>
 
 <p>Auf der einen Seite könnte der Schweregrad der gefährdenden kulturspezifischen Prägung entsprechend den vermuteten Bedeutungen der genannten Einzelkomponenten beliebig anders gewichtet werden oder es könnten auch die Einzelkomponenten von KP als einzelne Prädiktoren verwendet werden.</p>
 
 <p>Auf der anderen Seite könnten aber auch noch Prädiktoren wie soziales Umfeld (z.B. die Anzahl krimineller Freunde) und das Ausmaß von psychischer Erkrankung als weitere Prädiktoren dem bekannten Erklärungsmodell hinzugefügt werden.</p>
 
-<h2> Kuchenanalogie: Veranschaulichung der Varianzaufklärungen</h2>
+<h2> 6. Kuchenanalogie: Veranschaulichung der Varianzaufklärungen</h2>
 
 <figure>
     <img src="kuchen.jpg" alt="Teller mit zehn verschiedenen Kuchenstücken, jeweils eine Sorte: Kirsch , Apfel , Birnen , Aprikosen , Käse , Schokoladen , Bananen , Marmor , Pflaumen  und Erdbeerkuchen – die zusammen die Gesamtvarianz des Kriteriums symbolisieren." class="bild">
@@ -245,7 +245,7 @@ Hinweis: Die in der Stichprobe aufgeklärten Varianzen dienen als Schätzwerte f
 
 <p>Die zehn Stück Kuchen symbolisieren die Gesamtvarianz von 100% des Kriteriums. Jedes von den Kindern – sie stehen für die Prädiktoren – einzelne, verzehrte Stück Kuchen steht für eine 10% Varianzaufklärung des Kriteriums.</p>
 
-<h3> Varianzaufklärungen des Kriteriums bei der einfachen Regressionsanalyse mit nur einem Prädiktor </h3>
+<h3> 6.1 Varianzaufklärungen des Kriteriums bei der einfachen Regressionsanalyse mit nur einem Prädiktor </h3>
 
 <p>Mutter Kristina ist zunächst enttäuscht, am Sonntagnachmittag kommt nur der Sohn Klaus Peter zu Besuch, er repräsentiert den Prädiktor kulturspezifische Prägungen = KP. Er verputzt den gesamten Kirsch-, Erdbeer-, Schokoladen-, Käse- und Birnenkuchen. Kristina seufzt zufrieden, immerhin wurde die Hälfte ihres Kuchens gegessen.</p>
 
@@ -256,13 +256,13 @@ Hinweis: Die in der Stichprobe aufgeklärten Varianzen dienen als Schätzwerte f
     <figcaption> Die Hälfte des Kuchens – 50 % Varianzaufklärung</figcaption>
 </figure>
 
-<h3> Varianzaufklärungen des Kriteriums bei der multiplen Regressionsanalyse – Standard Methode – mit zwei Prädiktoren </h3>
+<h3> 6.2 Varianzaufklärungen des Kriteriums bei der multiplen Regressionsanalyse – Standard Methode – mit zwei Prädiktoren </h3>
 
 <p>Am nächsten Sonntagnachmittag kommen Klaus Peter und die jüngste Tochter Birgit. Sie stehen für die Prädiktoren kulturspezifische Prägungen = KP und BI = Bildung. Während Mutter Kristina auf die Toilette geht, stürzen sich die beiden hemmungslos auf den Kuchenteller. Als Kristina zurückkommt sind der gesamte Kirsch-, Erdbeer-, Schokoladen-, Käse-, Birnen- und Apfelkuchen vertilgt. Sie ist sehr zufrieden, weil 60% ihres Kuchens gegessen wurde. Allerdings hat sie keine Ahnung wer von den beiden Kindern was genau gegessen hat.</p>
 
 <p>In der Regressionsanalyse werden durch diese beiden Prädiktoren 60% der Kriteriumsvarianz zusammen aufgeklärt. Das wäre ein Ergebnis, das ganz im Sinne der Vermutung die Prädiktoren kulturspezifische Prägungen und die Bildung erklären gut gemeinsam kriminelles Verhalten, gekoppelt mit der folgenden statistischen Hypothese: R<sub>Pop</sub><sup>2</sup>(KRI . KP, BI) > 0, ausfällt. Welche Erklärungsanteile die einzelnen Prädiktoren dabei haben bleibt ungewiss.</p>
 
-<h3> Varianzaufklärungen des Kriteriums bei der multiplen Regressionsanalyse – Hierarchische Methode für die statistische Hypothese 1 </h3>
+<h3> 6.3 Varianzaufklärungen des Kriteriums bei der multiplen Regressionsanalyse – Hierarchische Methode für die statistische Hypothese 1 </h3>
 
 <p>Am nächsten Sonntagnachmittag kommen alle Kinder zu Besuch: Klaus Peter, Alwin, Arthur, Birgit, Gertrud und Stoffel Stefan. Sie stehen für die Prädiktoren kulturspezifische Prägungen = KP, Alter = AL, Armut = AR, Bildung = BI, Geschlecht = GE und sozialer Status = SS. Da Kristina weiss, wie verfressen Klaus Peter ist, muss dieser zunächst warten und es dürfen sich zunächst Alwin, Arthur, Birgit, Gertrud und Stoffel Stefan ungestört bedienen: Sie verzehren gemeinsam den gesamten Kirsch-, Erdbeer-, Schokoladen- und Apfelkuchen (40%). Als Klaus Peter anschliessend zum Zuge kommt, kann er nichts mehr von seinem geliebten Kirsch-, Erdbeer- und Schokoladenkuchen essen - alles weg. Dass der Apfelkuchen weg ist stört ihn wenig, weil er den sowieso nie mochte. Daraufhin isst er den gesamten Käse- und Birnenkuchen. Insgesamt wurden 60% des Kuchens verputzt. Klaus Peter hat dabei 20% des Kuchens, als ganz eigenen Anteil, über seine Geschwister hinaus verzehrt.</p>
 
@@ -273,7 +273,7 @@ Hinweis: Die in der Stichprobe aufgeklärten Varianzen dienen als Schätzwerte f
 <p>Das wäre ein Ergebnis das ganz im Sinne der Vermutung ausfällt: der Prädiktor kulturspezifische Prägungen erklärt gut kriminelles Verhalten, auch wenn die bekannten Einflussgrößen Alter, Armut, Bildung, Geschlecht und sozialer Status eliminiert werden, gekoppelt mit der folgenden statistischen Hypothese:<br>
 <code>R<sub>Pop</sub><sup>2</sup>(KRI . KP, AL, AR, BI, GE, SS) - R<sub>Pop</sub><sup>2</sup>(KRI . AL, AR, BI, GE, SS) > 0</code></p>
 
-<h3> Varianzaufklärungen des Kriteriums bei der multiplen Regressionsanalyse – Hierarchische Methode für die statistische Hypothese 2 </h3>
+<h3> 6.4 Varianzaufklärungen des Kriteriums bei der multiplen Regressionsanalyse – Hierarchische Methode für die statistische Hypothese 2 </h3>
 
 <p>Am nächsten Sonntagnachmittag kommen wieder alle Kinder zu Besuch: Klaus Peter, Alwin, Arthur, Birgit, Gertrud und Stoffel Stefan. Sie stehen für die Prädiktoren kulturspezifische Prägungen = KP, Alter = AL, Armut = AR, Bildung = BI, Geschlecht = GE und sozialer Status = SS. Diesmal darf Klaus Peter als Erster an den Kuchenteller. Er verputzt den gesamten Kirsch-, Erdbeer-, Schokoladen-, Käse- und Birnenkuchen (50%).</p>
 
@@ -304,7 +304,7 @@ würde hier abgelehnt werden.</p>
 </figure>
 
 
-    <h2> Literaturempfehlung zur multiplen Regressionsanalyse </h2>
+    <h2> 7. Literaturempfehlung zur multiplen Regressionsanalyse </h2>
 
     <p>Eine umfangreiche und anschauliche Darstellung der multiplen Regressionsanalyse 
     findet sich bei Kuhlmei (2020, S. 77-136).</p>
