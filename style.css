@@ -242,3 +242,52 @@ p {
     text-decoration: underline;
 }
 
+.linkbox {
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 650px;
+    margin-top: 40px;
+}
+
+.linkbox h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.15em;
+    color: #333;
+}
+
+.linkbox .section {
+    margin-top: 30px;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+.item span {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 3px;
+    color: #222;
+}
+
+.item a {
+    color: #003366;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
+
+
+/* Kleine, zentrierte Linkbox */
+.linkbox.small-centered {
+    width: 360px;          /* feste, kleinere Breite */
+    margin: 2.5rem auto;   /* zentriert */
+    padding: 1.2rem 1.4rem;
+    text-align: left;      /* wissenschaftlich linksbündig */
+}
