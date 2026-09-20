@@ -45,14 +45,19 @@
     text-decoration: underline;
 }
 
-/* Page Wrapper mit cremeweißem Hintergrund und Opazität */
+/* ---------------------------------------------------------
+   PAGE WRAPPER – Cremeweiß, Opazität 0.9, schmal
+--------------------------------------------------------- */
+
 .page-wrapper {
-    max-width: 800px;
-    margin: 1.5rem auto;
-    padding: 1.5rem 2rem;
-    background-color: rgba(255, 250, 240, 0.9); /* cremeweiß mit 0.9 Opazität */
-    box-sizing: border-box;
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 24px;
+    background-color: rgba(255, 248, 230, 0.9);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    border-radius: 4px;
 }
+
 
 /* Bilder in Textbreite */
 .content-image-wrapper {
