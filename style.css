@@ -296,3 +296,26 @@ p {
     padding: 1.2rem 1.4rem;
     text-align: left;      /* wissenschaftlich linksbündig */
 }
+
+/* Schmale Literatur-Box (380px) */
+.lit-box {
+    max-width: 380px;          /* sehr schmal */
+    background: #f9f9f9;       /* dezenter Hintergrund */
+    border-left: 3px solid #4a6fa5;  /* hellblauer Akzent */
+    padding: 10px 14px;
+    margin: 16px 0;
+    border-radius: 4px;
+}
+
+/* Titel / Zitat */
+.lit-title {
+    font-weight: 600;
+    margin-bottom: 6px;
+    line-height: 1.35;
+}
+
+/* Link */
+.lit-link {
+    color: #4a6fa5;
+    font-size: 0.95rem;
+}
